@@ -92,6 +92,19 @@ h1 {
   line-height: 1.9;
 }
 
+.hero-contact {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.hero-contact a,
+.hero-contact span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .profile-card {
   display: grid;
   gap: 14px;
@@ -347,5 +360,10 @@ h3 {
 
   .hero-nav {
     gap: 14px;
+  }
+
+  .hero-contact {
+    gap: 10px 14px;
+    flex-direction: column;
   }
 }
